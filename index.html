@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+
+    <!-- Stylesheets  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    wba_staff_2022 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header-top">
+                <div class="info-wrap">
+                    <span class="info-wrap__title">c</span>
+                    <span class="info-wrap__title icon-white">r</span>
+                    <span class="info-wrap__title">u</span>
+                    <span class="info-wrap__title icon-white">d</span>
+                </div>
+                <div class="icons">
+                    <div class="desc d1">create</div>
+                    <div class="desc d3">read</div>
+                    <div class="desc d2">update</div>
+                    <div class="desc d4">delete</div>
+                </div>
+                <div class="iconss">
+                    <i class="icon-white fa-solid fa-pen"></i>
+                    <i class="icon fa-brands fa-readme"></i>
+                    <i class="icon-white fa-solid fa-arrow-rotate-left arrow"></i>
+                    <i class="icon fa-solid fa-trash-can"></i>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <a class="header-bottom__logo-link" href="https://www.youtube.com/c/WebBrainAcademy" target="_blank">
+                    <img class="header-bottom__img" src="img/wba-logo.jpg" alt="wba logo img" width="140" height="140">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main-content container">
+        <div class="inner">
+            <pre class="inner__info">No  Name</pre>
+            <p class="inner__info">Email</p>
+            <p class="inner__info">Phone</p>
+            <p class="inner__info inner__info-right">Add</p>
+            <p class="inner__info">Save</p>
+        </div>
+        <div class="input-wrap">
+            <input class="input" type="text" id="nameInput" placeholder="Add Name...." required>
+            <input class="input" type="text" id="emailInput" placeholder="Add Email...." required>
+            <input class="input" type="number" id="telInput" placeholder="Add Phone...." required>
+            <button class="btn addBtn" id="addBtn">Add</button>
+            <button class="btn btnLeft" id="save">Save</button>
+        </div>
+        <div id="main"></div>
+    </main>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
